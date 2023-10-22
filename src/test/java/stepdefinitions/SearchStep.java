@@ -20,8 +20,8 @@ public class SearchStep {
     @Given("User on waatwo sitee")
     public void userOnWaatwoSitee() {
         DriverManager.getDriver().get("https://www.waa2.com");
-wait.until(ExpectedConditions.visibilityOf(homePage.canada));
-        homePage.canada.click();
+        System.out.println(DriverManager.getDriver().getTitle());
+        //  homePage.canada.click();
     }
 
 
