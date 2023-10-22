@@ -14,6 +14,7 @@ public class SearchStep {
     @Given("User on waatwo sitee")
     public void userOnWaatwoSitee() {
         DriverManager.getDriver().get("https://www.waa2.com");
+        homePage.canada.click();
     }
 
 

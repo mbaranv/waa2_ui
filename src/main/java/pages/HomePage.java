@@ -27,6 +27,9 @@ public class HomePage {
     @FindBy(linkText = "Homes")
     public WebElement homes;
 
+    @FindBy(linkText = "Canada")
+    public WebElement canada;
+
     @FindBy(xpath = "(//*[@href='#'])[1]")
     public WebElement signButton;
 
