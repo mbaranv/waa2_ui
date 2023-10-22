@@ -28,7 +28,8 @@ public class DriverManager {
                 case "chrome":
                     WebDriverManager.chromedriver().setup();
                     ChromeOptions options=new ChromeOptions();
-                    options.addArguments("headless");
+                    options.addArguments("start-maximized");
+                    options.addArguments("disable-infobars");
                     driver=new ChromeDriver(options);
                     break;
 
