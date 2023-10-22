@@ -10,7 +10,10 @@ import net.bytebuddy.implementation.bind.annotation.RuntimeType;
         tags = "@tag",
         glue = {"stepdefinitions","utils"},
         plugin = {
-                "pretty"
+                "html:target/cucumber-reportsUI.html",
+                "json:target/json-reports/cucumber.json",
+                "junit:target/xml-report/cucumber.xml",
+                "rerun:target/failedRerun.txt"
         }
 
 )
