@@ -27,9 +27,9 @@ public class DriverManager {
 
                 case "chrome":
                     WebDriverManager.chromedriver().setup();
-                    ChromeOptions options=new ChromeOptions();
-                    options.addArguments("headless");
-                    driver=new ChromeDriver(options);
+                   // ChromeOptions options=new ChromeOptions();
+                   // options.addArguments("headless");
+                    driver=new ChromeDriver();
                     break;
 
             }
