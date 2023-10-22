@@ -20,7 +20,7 @@ public class HomePage {
         PageFactory.initElements(driver, this);
     }
 
-    WebDriverWait wait=new WebDriverWait(DriverManager.getDriver(), Duration.ofSeconds(10));
+   // WebDriverWait wait=new WebDriverWait(DriverManager.getDriver(), Duration.ofSeconds(10));
 
     @FindBy(xpath = "(//*[@class='fc-button-label'])[1]")
     public WebElement constent;
